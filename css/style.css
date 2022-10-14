@@ -1,0 +1,267 @@
+*{
+	
+
+}
+
+body{
+	
+	bacground:f1fbff;
+}
+
+.section-padding{
+
+	padding:100px 0;
+}
+
+.carousel-item{
+     height:100vh;
+     min-height:300px;	
+}
+
+.carousel-caption{
+	
+	bottom:250px;
+	z-index:2;
+}
+
+.carousel-caption h5{
+	font-size: 45px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-top: 25px;
+}
+
+.corousel-caption{
+	width:60%;
+	margin:auto;
+	font-size:18px;
+	line-height:1.9;
+	
+}
+
+/* Carousel-caption responsiveness */	
+
+.carousel-inner::before{
+	
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index:1;
+	}
+
+
+.navbar .nav-item .nav-link{
+	
+	font-size: 21px;
+	font-weight:500;
+	color:black;
+}
+
+.navbar .nav-item .nav-link:hover{
+	
+	border-radius: 20px;
+	color:white;
+    background-color: black;
+	
+	
+}
+
+
+
+	
+	.navbar-light .navbar-brand{
+	color: #000;
+	font-size: 25px;
+	text-tranform: uppercase;
+	font-weight:780;
+	letter-spacing: 2px;
+	
+	}
+	
+	.navbar-light .navbar-brand:focus,
+	.navbar-light .navbar-brand:hover{
+	  color:#000;
+	  color: white;
+      text-shadow: 2px 2px 4px #000000;
+	}
+	
+	
+  .w-100{
+   height: 100%;
+   
+   }
+   
+   
+   
+   
+   
+ /* Carousel-caption responsiveness */
+ 
+ 
+ 
+ 
+ 
+ /* Services section*/
+ 
+ .services .card-body i{
+ font-size:50px;
+ margin-bottom:10px;
+ }
+ 
+ 
+ 
+ 
+ /* Services section*/
+ 
+ 
+ 
+ 
+   
+    @media only screen and(max-width: 768px) and (max-width: 991px){
+       .carousel-caption{
+        bottom: 370px;
+       }
+       
+       .carousel-caption{
+        width: 100%;
+       }
+       
+       .card{
+        margin-bottom: 100px;
+       }
+    
+    }
+   
+   @media only screen and(max-width: 767px){
+   
+   .navbar-nav{
+   text-align: center;
+   }
+   
+   .corousel-caption{
+     bottom: 125px;
+     
+   
+   }
+   
+   .corousel-caption h5{
+  
+   font-size: 17px;
+   
+   }
+   
+   .corousel-caption a{
+    padding : 10px 15px;
+   }
+   
+   
+.corousel-caption p{
+   width: 100%;
+   line-height: 1.6;
+   font-size: 12px;
+   }
+   
+ .about-text h2{
+ padding-top: 50px;
+  
+ }  
+ 
+ .card{
+ margin-bottom: 30px;
+ }
+   
+ 
+   }
+   
+    /* Carousel-caption responsiveness */
+     
+     
+   
+   
+   /* footer responsiveness */	    		 
+   
+ @media only screen and (max-width: 100%){
+ .about-text h2{
+     width:100%;
+     line-height: 1.6;
+     text-align:center;
+ }
+ 
+ 
+ }  
+
+
+    /* footer responsiveness */	    	
+	
+		
+   
+   
+	
+/* Footer Css */
+	
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ body{
+    font-family:sans-serif;
+}
+.footer{
+     position:absolute;
+     bottom:0;
+     left:0;
+     right:0;
+     background:black;
+     height:auto;
+     padding-top: 40px;
+     width:100vw;
+     color:white;
+
+
+
+}
+.footer-content{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    text-align:center;
+    color:white;
+    
+
+}
+
+.h3{
+   font-size:2.1rem;
+   font-weight:500;
+   text-transform:capitalize;
+   line-height: 3rem;
+
+}
+.p{
+    max-width:500px;
+    margin:10px auto;
+    line-height:28px;
+    font-size:14px;
+
+}
+
+	
+/* Footer Css */		
+	
+	
+	.navvv{
+      margin-right:-20px;
+	}
+	
+	.demo{
+	 margin-right:-20px;
+	}
+
+	
+	
