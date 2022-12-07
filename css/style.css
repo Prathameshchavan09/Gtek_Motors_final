@@ -29,6 +29,7 @@ body{
 	text-transform:uppercase;
 	letter-spacing:2px;
 	margin-top: 25px;
+
 }
 
 .corousel-caption{
@@ -54,18 +55,30 @@ body{
 	}
 
 
-.navbar .nav-item .nav-link{
+.navbar .nav-item .nav-link {
 	
 	font-size: 21px;
 	font-weight:500;
 	color:black;
+	display:inline;
+}
+
+.navbar-nav .nav-item{
+	
+	color:white;
+}
+
+.navbar .nav-item .nav-link{
+	font-weight: bold;
+	
 }
 
 .navbar .nav-item .nav-link:hover{
 	
-	border-radius: 20px;
+	border-radius: 8px;
 	color:white;
-    background-color: black;
+    background-color: powderblue;
+    color:black;
 	
 	
 }
@@ -105,7 +118,8 @@ body{
  
  
  
- /* Services section*/
+ 
+ /* Our Services section*/
  
  .services .card-body i{
  font-size:50px;
@@ -113,13 +127,12 @@ body{
  }
  
  
- 
- 
- /* Services section*/
- 
+ /* Our Services section*/
  
  
  
+
+
    
     @media only screen and(max-width: 768px) and (max-width: 991px){
        .carousel-caption{
@@ -163,12 +176,18 @@ body{
    width: 100%;
    line-height: 1.6;
    font-size: 12px;
+   
    }
    
  .about-text h2{
  padding-top: 50px;
-  
+  color:red;
  }  
+ 
+ .about-text p{
+ color:red;
+  
+ } 
  
  .card{
  margin-bottom: 30px;
@@ -177,8 +196,12 @@ body{
  
    }
    
+   
+   
     /* Carousel-caption responsiveness */
      
+    
+    
      
    
    
@@ -193,11 +216,10 @@ body{
  
  
  }  
-
-
-    /* footer responsiveness */	    	
+  /* footer responsiveness */	    	
 	
 		
+   
    
    
 	
@@ -250,9 +272,9 @@ body{
     font-size:14px;
 
 }
-
 	
 /* Footer Css */		
+	
 	
 	
 	.navvv{
@@ -263,5 +285,210 @@ body{
 	 margin-right:-20px;
 	}
 
+
+
+
+
+   /* footer responsiveness code  */	
+   
+   h3{
+    color:white;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+}
+footer{
+     position:relative;
+     bottom:0;
+     left:0;
+     right:0;
+     background:black;
+     height:auto;
+     padding-top: 40px;
+     width:100vw;
+     color:white;
+
+
+
+}
+.footer-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+
+}
+
+h3{
+   font-size:2.1rem;
+   font-weight:500;
+   text-transform:capitalize;
+   line-height: 3rem;
+
+}
+p{
+    max-width:500px;
+    margin:10px auto;
+    line-height:28px;
+    font-size:14px;
+
+}
+.socials{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1rem 0 3rem 0;
+    
+    
+    
+    
+}
+.socials li{
+    margin:0 10px;
+    
+   
+}
+li a{
+    text-decoration:none;
+    color:white;
+    border:1.1px solid white;
+    padding:8px;
+    border-radius:50%;
+    width:35px;
+     
+}
+
+   /* footer */	
+.footer-menu{
+    margin-bottom:20px;
+    
+ }
+ .footer-menu ul{
+     display:flex;
+     
+ }
+ .footer-menu ul li{
+     padding-right:10px;
+     display:block;
+     
+     
+ }
+ .footer-menu ul li a{
+     color:#cfd2d6;
+     border:1.3px solid white;
+     padding: 6px 15px;
+     border-radius:50px;
+     text-decoration:none;
+     
+     
+     
+     
+ }
+ .footer-menu ul li a:hover{
+     color:#27bcda;
+     
+     
+ }
+
+ .footer-bottom{
+     background:#000;
+     margin-top:20px;
+     width:100vw;
+     padding:20px;
+     text-align: center;
+     
+     
+ }
+
+ .footer-bottom p{
+     text-align:center;
+     font-size:14px;
+     word-spacing:2px;
+     text-transform:capitalize;
+     
+     
+ }
+ .footer-bottom p a{
+     color:#44bae8;
+     font-size:16px;
+     text-decoration:none;
+     
+     
+ }
+ 
+ .footter{
+ 
+ margin-top:300px;
+ }
+
+/* footer */	 
+ 
+ 
+ 
+ 
+   /* footer responsiveness code  */	
+/make it responsive/
+@media(max-width:500px){
+    .footer-menu ul{
+        display:inline;
+        
+        
+    }
+    .footer-menu ul li{
+         margin-bottom:20px;
+       
+        
+    }
+    
+    
+}
+   
+/* footer responsiveness code  */	
+   
+   
+   
+   
+   /* Registration form  Login form */	
+  
+ .card{
+ 
+ position:relative;
+ top:150px;
+ 
+ }
+  
+ 
+
+.form-group{
+	
+	min-height: 1px;
+    padding: 10px;
+}
+
+.fa-asterisk:before{
+	font-size:7px;
+	color:red;
+}
+
+.labeld{
+  padding:10px;	
+	
+}
+  
+   
+  /* Registration form  Login form */		
+   
+   
+   
+   
+   
 	
 	

@@ -88,10 +88,10 @@
 
 				<div class="col-lg-8  col-12 ps-lg-5 mt-md-5">
 					<div class="about-text">
-						<h2>
+						<h2 style="text-align:center;margin-bottom:20px;">
 							We Provide Best Quality <br>Service ever
 						</h2>
-						<p>Quality is the foremost thing that customers confirm before
+						<p style="font-size:18px;">Quality is the foremost thing that customers confirm before
 							purchasing products. And it is correct to confirm because
 							products, especially in the case of electrical items, automation
 							products and lab instruments, must perform reliable operation and
@@ -103,7 +103,7 @@
 							manually. From finish, structure to design and operation, each
 							and every product is tested on various grounds.</p>
 
-						<a href="#" class="btn btn-warning">Learn more</a>
+						<a href="#" class="btn btn-warning" class="text-center">Learn more</a>
 					</div>
 				</div>
 			</div>
@@ -204,11 +204,13 @@
  
 				</div>
 			</div>
+			
+			
 	</section>
 
 
+<%@ include file="all_components/footerr.jsp"%>
 
-	<%@ include file="all_components/footer.jsp"%>
 
 </body>
 </html>
